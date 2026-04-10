@@ -1,7 +1,7 @@
 # Technical Writing Portfolio
 Welcome to my portfolio!
 
-This repository showcases a collection of structured technical documents developed to support manufacturing processes, system operations, and API integrations. My work focuses on creating clear, standardized, and easy-to-follow documentation to improve efficiency, consistency, and communication across teams.
+This repository showcases a collection of structured technical documents developed to support manufacturing processes, system operations, API integrations, and flow charts. My work focuses on creating clear, standardized, and easy-to-follow documentation to improve efficiency, consistency, and communication across teams.
 
 The documents included cover a range of areas API documentation, knowledge-based artcile, user guide, build procedures, receiving inspections, standard operating procedures (SOPs), risk assessments, etc. Each document was created by analyzing workflows, collaborating with cross-functional teams, and translating complex processes into concise, user-friendly formats.
 
@@ -9,6 +9,8 @@ The documents included cover a range of areas API documentation, knowledge-based
 ---
 ## 📑 Table of Contents
 
+- [Credit Return Process Flow](#credit-return-process-flow)
+- [DemoRental Return Process Flow](#demorental-return-process-flow)
 - [Pulsar Measurement Inc_BLD.0088](#pulsar-measurement-inc_bld0088)  
 - [Pulsar Measurement Inc_RCV.0037](#pulsar-measurement-inc_rcv0037)  
 - [Pulsar Measurement Inc_SOP.0024](#pulsar-measurement-inc_sop0024)  
@@ -22,6 +24,74 @@ The documents included cover a range of areas API documentation, knowledge-based
 - [Quickwork Technologies_How to create, configure, and send postback buttons to a Facebook Page](#quickwork-technologies_how-to-create-configure-and-send-postback-buttons-to-a-facebook-page)
 
 ---
+
+# Credit Return Process Flow
+
+This flowchart outlines the **credit return process** from customer request to final resolution:
+
+- A customer submits a return request, which is reviewed internally via email.  
+- The request goes to **preapproval (Michael/RSM)** to determine if it qualifies under return rules.  
+- If approved, the **CS team issues an RMA**, and the item is received and logged.  
+- The **Service Team evaluates** the returned item and documents findings.  
+
+## Decision Outcomes
+
+- ✅ **If approved:**
+  - Credit memo is created  
+  - Finance processes the credit  
+  - **Process ends**
+
+- ❌ **If not approved:**
+  - Item may be returned to the customer  
+  - Sent for refurbishment  
+  - Disposed or added back to stock (depending on condition)  
+
+# DemoRental Return Process Flow
+
+This flowchart outlines the **demo/rental return process** from order creation to final resolution:
+
+- CS Team creates a **demo order ($0)** and notifies the customer and SAE.  
+- SAE creates a case and tracks the **expected return date**.  
+- Depending on the situation:
+  - Customer may **purchase the item**
+  - Or **extend the return period**
+- SAE requests the **CS Team to issue an RMA and shipping labels**.  
+- CS Team contacts the customer and starts an **internal email thread** (CS, SAE, Kate, Service Team).  
+
+## Return & Evaluation
+
+- Returned item is received (**RMA received**).  
+- **Service Team evaluates** the item and documents findings in RMA comments.  
+- Findings are shared via internal email with stakeholders.  
+- Feedback is sent to **Kate/Wayne**.  
+
+## Decision Outcomes
+
+- ✅ **If approved (good condition):**
+  - Item is added back to stock  
+  - Process ends  
+
+- ❌ **If not approved:**
+  - Item may be:
+    - Returned to customer ("as is")  
+    - Sent for refurbishment (handled by Kim)  
+    - Disposed or moved to repair stock  
+  - Re-evaluation may occur with **RSM/Michael** if needed  
+
+## Additional Sales Flow (Post Demo)
+
+- At the end of the demo/rental period:
+  - SAE follows up with the customer for feedback  
+  - SAE prepares and sends a **purchase quote**  
+  - Customer submits a **purchase order (PO)**  
+  - Kate closes the sales order  
+  - Finance processes the invoice  
+  - **Process ends**  
+
+## Notes
+
+- Internal communication between teams ensures alignment throughout the process.  
+- NCR process is followed when required for quality or return issues.  
 
 # Pulsar Measurement Inc_BLD.0088
 
