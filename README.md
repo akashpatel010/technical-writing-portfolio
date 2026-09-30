@@ -1,4 +1,4 @@
-# Akash Patel — Portfolio Website
+# Akash Patel — Portfolio
 
 A responsive, static portfolio website for Akash Patel.
 
